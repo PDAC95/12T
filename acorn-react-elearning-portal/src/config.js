@@ -7,8 +7,8 @@ export const USE_MULTI_LANGUAGE = true;
 
 // For detailed information: https://github.com/nfl/react-helmet#reference-guide
 export const REACT_HELMET_PROPS = {
-  defaultTitle: 'Acorn Admin Template',
-  titleTemplate: '%s | Acorn Admin Template',
+  defaultTitle: 'TALQ - Language Learning Platform',
+  titleTemplate: '%s | TALQ',
 };
 
 export const DEFAULT_PATHS = {
@@ -28,7 +28,7 @@ export const DEFAULT_SETTINGS = {
   MENU_BEHAVIOUR: MENU_BEHAVIOUR.Unpinned,
   LAYOUT: LAYOUT.Boxed,
   RADIUS: RADIUS.Rounded,
-  COLOR: THEME_COLOR.LightPurple,
+  COLOR: THEME_COLOR.LightTalq,
   NAV_COLOR: NAV_COLOR.Default,
   USE_SIDEBAR: false,
 };

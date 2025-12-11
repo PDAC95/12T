@@ -16,6 +16,7 @@ export const RADIUS = {
 };
 
 export const THEME_COLOR = {
+  LightTalq: 'light-talq',
   LightBlue: 'light-blue',
   DarkBlue: 'dark-blue',
   LightRed: 'light-red',

@@ -1,0 +1,93 @@
+/*
+*
+* Light TALQ
+*
+* TALQ Brand Theme - "Let's Talq"
+* Primary: #E16449 (Coral)
+* Secondary: #FFBF40 (Honey Yellow)
+* Dark: #181B21 (Deep Black)
+* Gray: #868686 (Medium Gray)
+*
+*/
+
+html[data-color='light-talq'] {
+  --primary: #E16449;
+  --secondary: #FFBF40;
+  --tertiary: #FFA500;
+  --quaternary: #FF8C42;
+  --primary-rgb: 225, 100, 73;
+  --secondary-rgb: 255, 191, 64;
+  --tertiary-rgb: 255, 165, 0;
+  --quaternary-rgb: 255, 140, 66;
+
+  --primary-darker: #c75740;
+  --secondary-darker: #e6ac39;
+  --tertiary-darker: #e69500;
+  --quaternary-darker: #e67d3b;
+
+  --body: #181B21;
+  --alternate: #868686;
+  --muted: #b3b3b3;
+  --separator: #dddddd;
+  --separator-light: #f1f1f1;
+  --body-rgb: 24, 27, 33;
+  --alternate-rgb: 134, 134, 134;
+  --muted-rgb: 179, 179, 179;
+  --separator-rgb: 221, 221, 221;
+  --separator-light-rgb: 241, 241, 241;
+
+  --background: #f9f9f9;
+  --foreground: #ffffff;
+  --background-rgb: 249, 249, 249;
+  --foreground-rgb: 255, 255, 255;
+
+  --background-theme: #fdf5f2;
+  --background-light: #fefefe;
+
+  --gradient-1: #E16449;
+  --gradient-2: #e87360;
+  --gradient-3: #ef8277;
+
+  --gradient-1-lighter: #eb7a66;
+  --gradient-1-darker: #c75740;
+
+  --light-text: #fff;
+  --dark-text: #181B21;
+  --light-text-darker: #eeeeee;
+  --dark-text-darker: #0a0c0f;
+
+  --light-text-rgb: 255, 255, 255;
+  --dark-text-rgb: 24, 27, 33;
+
+  --danger: #cf2637;
+  --info: #279aac;
+  --warning: #FFBF40;
+  --success: #439b38;
+  --light: #dadada;
+  --dark: #181B21;
+  --danger-darker: #771a23;
+  --info-darker: #19545d;
+  --warning-darker: #e6ac39;
+  --success-darker: #285422;
+  --light-darker: #c9c9c9;
+  --dark-darker: #0a0c0f;
+  --body-darker: #0a0c0f;
+  --alternate-darker: #686868;
+  --muted-darker: #888888;
+  --separator-darker: #c0c0c0;
+
+  --danger-rgb: 207, 38, 55;
+  --info-rgb: 39, 154, 172;
+  --warning-rgb: 255, 191, 64;
+  --success-rgb: 67, 155, 56;
+  --light-rgb: 218, 218, 218;
+  --dark-rgb: 24, 27, 33;
+
+  --menu-shadow: 0px 3px 10px rgba(0, 0, 0, 0.12);
+  --menu-shadow-navcolor: 0px 2px 6px rgba(0, 0, 0, 0.05);
+
+  --background-navcolor-light: #fff;
+  --background-navcolor-dark: #2a1f1c;
+
+  --theme-image-filter: hue-rotate(15deg) contrast(1.2) brightness(0.95);
+}
