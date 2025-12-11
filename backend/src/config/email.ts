@@ -12,8 +12,10 @@ const resend = new Resend(process.env.RESEND_API_KEY);
  * Email configuration
  */
 export const emailConfig = {
-  from: 'TALQ <noreply@letstalq.com>', // Update with verified domain
-  replyTo: 'support@letstalq.com',     // Update with support email
+  // Using Resend's test domain for development
+  // Change to 'TALQ <noreply@letstalq.com>' when domain is verified
+  from: 'TALQ <onboarding@resend.dev>',
+  replyTo: 'support@letstalq.com',
 };
 
 /**

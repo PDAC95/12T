@@ -11,7 +11,10 @@
       "Bash(npm run dev:*)",
       "Bash(timeout 3 bash:*)",
       "Bash(tasklist:*)",
-      "Bash(findstr:*)"
+      "Bash(findstr:*)",
+      "Bash(timeout 5 bash:*)",
+      "Bash(npx ts-node:*)",
+      "Bash(RESEND_API_KEY=re_P6EEEiRT_84y8835fNYbf9rD6RPbJnSZR npx ts-node:*)"
     ],
     "deny": [],
     "ask": []
