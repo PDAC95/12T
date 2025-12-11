@@ -80,7 +80,7 @@
   4. Primer commit: "chore: initial project setup with Acorn template"
 - **Dependencies:** NINGUNA (primera tarea)
 - **Blocks:** TODO
-- **Status:** 📋 Not Started
+- **Status:** ✅ Completed (Dec 10, 2025)
 
 ---
 
@@ -100,7 +100,7 @@
   4. Commit: "feat(theme): configure TALQ brand colors"
 - **Dependencies:** TASK-001
 - **Blocks:** TASK-004, TASK-005
-- **Status:** 📋 Not Started
+- **Status:** ✅ Completed (Dec 10, 2025)
 
 ---
 
@@ -116,7 +116,7 @@
   4. Commit: "feat(theme): add Switzer font"
 - **Dependencies:** TASK-001
 - **Blocks:** Ninguno
-- **Status:** 📋 Not Started
+- **Status:** ✅ Completed (Dec 10, 2025)
 
 ---
 
@@ -217,7 +217,7 @@
   7. Commit: "feat(backend): initialize Express with TypeScript"
 - **Dependencies:** TASK-001
 - **Blocks:** TASK-009, TASK-010
-- **Status:** 📋 Not Started
+- **Status:** ✅ Completed (Dec 10, 2025)
 
 ---
 
