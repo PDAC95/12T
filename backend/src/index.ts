@@ -1,9 +1,13 @@
 import express, { Application, Request, Response } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import connectDB from './config/db';
 
 // Load environment variables
 dotenv.config();
+
+// Connect to MongoDB
+connectDB();
 
 // Initialize Express app
 const app: Application = express();
@@ -17,11 +21,19 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Health check route
-app.get('/health', (req: Request, res: Response) => {
+app.get('/health', async (req: Request, res: Response) => {
+  const mongoose = require('mongoose');
+  const dbStatus = mongoose.connection.readyState === 1 ? 'connected' : 'disconnected';
+
   res.status(200).json({
     status: 'success',
     message: 'TALQ API is running',
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
+    database: {
+      status: dbStatus,
+      name: mongoose.connection.name || 'N/A'
+    },
+    environment: process.env.NODE_ENV || 'development'
   });
 });
 
